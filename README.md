@@ -1,43 +1,45 @@
-[A MODIFIER : remplacer avec votre logo s'il ne s'agit pas d'un projet CI-SIS]
+[![Workflow Init](https://github.com/nriss/metadata-interop-catalog/actions/workflows/fhir-workflows.yml/badge.svg)](https://github.com/nriss/metadata-interop-catalog/actions/workflows/fhir-workflows.yml)
 
-![Logo_LEF_CI-SIS](https://user-images.githubusercontent.com/48218773/227532484-eff82649-4e42-49c6-966a-dc3ea78cf59c.png)
+# metadata-interop-catalog
 
-[A MODIFIER : adapter au lien du projet]
-
-[![Workflow Init](https://github.com/ansforge/IG-fhir-partage-de-documents-de-sante/actions/workflows/fhir-workflows.yml/badge.svg)](https://github.com/ansforge/IG-fhir-partage-de-documents-de-sante/actions/workflows/fhir-workflows.yml)
-
-Cet exemple d'Implementation Guide (IG) très simplifié sert de base pour le développement de nouveaux guides d'implémentation. La démarche d'élaboration d'un nouvel IG est expliquée dans le [wiki de ce repo](https://github.com/ansforge/IG-modele/wiki).
-Le README ci-dessous constitue un template à adapter et compléter pour chaque projet.
+Implementation Guide (IG) qui spécifie les métadonnées associées à une spécification d'interopérabilité, afin de mettre à jour une page web des spécifications d'interopérabilité générée automatiquement.
 
 # Contexte
 
 ## Contexte métier du projet
 
-[A COMPLETER : doit contenir la description fonctionnelle du projet destinée à un profil non technique]
+L'ANS publie de nombreuses spécifications d'interopérabilité (FHIR, CDA, HL7v2…). Une page web qui les recense est générée automatiquement. Cet IG définit les métadonnées nécessaires à cette page : titre, description, date et numéro de la dernière version, identifiant, liens (historique, ci-build, source, spécification), standard, tags, cas d'usage, porteur et libellé d'affichage.
 
 ## Contexte technique du projet
 
-[A COMPLETER : doit expliquer brièvement quelles ressources / profils sont utilisés, exemple implémentation où IG est utilisé]
+Le contenu de l'IG est constitué de deux modèles logiques :
+
+* `SpecificationMetadata` : métadonnées d'une spécification d'interopérabilité ;
+* `SpecificationMetadataList` : liste de `SpecificationMetadata`.
+
+Un exemple de liste, construit à partir de [https://interop.esante.gouv.fr/ig/fhir/package-feed.xml](https://interop.esante.gouv.fr/ig/fhir/package-feed.xml), est fourni dans `input/examples/SpecificationMetadataList-fhir.json` et déclaré dans `sushi-config.yaml`.
+
+Les sources d'informations actuelles sont les flux `package-feed.xml` de `interop.esante.gouv.fr` (racine, `/ig`, `/ig/fhir`, `/ig/cda` et `/ig/HL7v2`). Le CDA n'a pas encore de flux pour ses spécifications existantes, uniquement publiées en PDF sur l'[Espace de publication du CI-SIS](https://esante.gouv.fr/offres-services/ci-sis/espace-publication). Le détail est dans la page d'accueil de l'IG (`input/pagecontent/index.md`).
 
 # CI/CD
 
-Les workflows associés à ce repository (.github/workflows) permettent :
+Les workflows associés à ce repository (`.github/workflows`) permettent :
 
-* D'executer Sushi pour vérifier la grammaire
+* D'exécuter SUSHI pour vérifier la grammaire
 * De faire les tests avec le validator_cli
-* De publier les pages : https://ansforge.github.io/{nom du repo}/{nom de la branche}/ig
+* De publier les pages : https://nriss.github.io/metadata-interop-catalog/main/ig
 
 # Notes
 
-Ce repo "IG-modele" a été créé à partir du repo [sample-ig](https://github.com/FHIR/sample-ig) de l'organisation GitHub FHIR.
+Ce repo a été initialisé à partir du modèle [ansforge/IG-modele](https://github.com/ansforge/IG-modele).
 
-[A COMPLETER: notes supplémentaires pour le lecteur de la spec]
 Un commentaire ? Une remarque ? Utilisez les GitHub [issues](https://docs.github.com/fr/issues) pour indiquer vos propositions d'amélioration et de correction.
 
 ## Acronymes
 
-* IG : Implementation Guide
+* ANS : Agence du Numérique en Santé
+* CDA : Clinical Document Architecture
+* CI-SIS : Cadre d'Interopérabilité des Systèmes d'Information de Santé
 * FHIR : Fast Healthcare Interoperability Resources
 * HL7 : Health Level Seven
-
-[A COMPLETER : acronymes utilisés dans le cadre de ce projet]
+* IG : Implementation Guide
