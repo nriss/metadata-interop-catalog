@@ -57,6 +57,14 @@ Les métadonnées des spécifications d'interopérabilité sont actuellement iss
 * [https://interop.esante.gouv.fr/ig/cda/package-feed.xml](https://interop.esante.gouv.fr/ig/cda/package-feed.xml)
 * [https://interop.esante.gouv.fr/ig/HL7v2/package-feed.xml](https://interop.esante.gouv.fr/ig/HL7v2/package-feed.xml)
 
+#### Schéma d'alimentation
+
+Les différents `package-feed.xml` alimentent automatiquement une source de vérité conforme au modèle logique `SpecificationMetadataList`, qui alimente à son tour automatiquement le site d'affichage des spécifications.
+
+<div style="width: 100%">
+    <img src="flux-alimentation.svg" alt="Schéma d'alimentation : package-feed.xml, outil d'agrégation, source de vérité conforme au modèle logique, site d'affichage" style="width:100%;">
+</div>
+
 #### Problématiques : le cas du CDA
 
 Les nouvelles spécifications CDA seront publiées sous forme d'Implementation Guides, et donc référencées dans le flux `https://interop.esante.gouv.fr/ig/cda/package-feed.xml`. En revanche, les spécifications CDA existantes n'ont actuellement pas de correspondance en `package-feed.xml`. Toutes leurs informations, y compris l'historique des versions, sont renseignées sur la page [Espace de publication du CI-SIS](https://esante.gouv.fr/offres-services/ci-sis/espace-publication), sous forme de documents PDF.

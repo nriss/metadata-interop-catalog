@@ -1,0 +1,31 @@
+@startuml flux-alimentation
+skinparam shadowing false
+skinparam componentStyle rectangle
+skinparam defaultFontSize 13
+left to right direction
+
+package "Sources : package-feed.xml (interop.esante.gouv.fr)" as sources {
+  rectangle "/package-feed.xml" as feed_root
+  rectangle "/ig/package-feed.xml" as feed_ig
+  rectangle "/ig/fhir/package-feed.xml" as feed_fhir
+  rectangle "/ig/cda/package-feed.xml" as feed_cda
+  rectangle "/ig/HL7v2/package-feed.xml" as feed_hl7v2
+}
+
+rectangle "IG encapsulant les PDF CDA\n(solution transitoire,\njusqu'au full IG)" as ig_pdf #fff9e6
+
+rectangle "Outil d'agrégation\n(lecture des flux,\nmapping vers le modèle logique)" as tool
+
+database "Source de vérité\nListe conforme au modèle logique\nSpecificationMetadataList\n(JSON)" as truth #e8f4f8
+
+rectangle "Site d'affichage\ndes spécifications d'interopérabilité" as site
+
+feed_root --> tool
+feed_ig --> tool
+feed_fhir --> tool
+feed_cda --> tool
+feed_hl7v2 --> tool
+ig_pdf ..> feed_cda : publie un package-feed
+tool --> truth : alimente automatiquement
+truth --> site : alimente automatiquement
+@enduml
