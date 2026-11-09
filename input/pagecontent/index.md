@@ -57,6 +57,15 @@ Les métadonnées des spécifications d'interopérabilité sont actuellement iss
 * [https://interop.esante.gouv.fr/ig/cda/package-feed.xml](https://interop.esante.gouv.fr/ig/cda/package-feed.xml)
 * [https://interop.esante.gouv.fr/ig/HL7v2/package-feed.xml](https://interop.esante.gouv.fr/ig/HL7v2/package-feed.xml)
 
+#### Problématique : le cas du CDA
+
+Le CDA n'a actuellement pas de correspondance en `package-feed.xml`. Toutes ses informations, y compris l'historique des versions, sont renseignées sur la page [Espace de publication du CI-SIS](https://esante.gouv.fr/offres-services/ci-sis/espace-publication), sous forme de documents PDF.
+
+Deux options sont envisageables pour assurer la cohérence des sources :
+
+* adapter l'outil afin qu'il sache lire les informations de cette page ;
+* englober les PDF dans des Implementation Guides afin de produire un `package-feed.xml` cohérent avec les autres standards.
+
 ### Auteurs et contributeurs (optionnel)
 
 | Role  | Nom | Organisation | Contact |
