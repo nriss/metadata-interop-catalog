@@ -45,9 +45,9 @@ Les métadonnées des spécifications d'interopérabilité sont actuellement iss
 
 Les différents `package-feed.xml` alimentent automatiquement une source de vérité conforme au modèle logique `SpecificationMetadataList`, qui alimente à son tour automatiquement le site d'affichage des spécifications.
 
-<figure>
+<figure style="text-align: center; margin: 0 auto;">
 {% include flux-alimentation.svg %}
-<figcaption>Schéma d'alimentation : package-feed.xml, outil d'agrégation, source de vérité conforme au modèle logique, site d'affichage</figcaption>
+<figcaption style="text-align: center;">Schéma d'alimentation : package-feed.xml, outil d'agrégation, source de vérité conforme au modèle logique, site d'affichage</figcaption>
 </figure>
 <br clear="all"/>
 
