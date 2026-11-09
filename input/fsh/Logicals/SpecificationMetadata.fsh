@@ -17,5 +17,5 @@ Description: "Modèle logique des métadonnées associées à une spécification
 * standard 0..* string "Standard" "Standard utilisé par la spécification (CDA, FHIR)"
 * tag 0..* string "Tag" "Tags permettant de classer la spécification"
 * casUsage 0..* string "Cas d'usage" "Cas d'usage couverts par la spécification"
-* porteur 1..1 string "Porteur" "Porteur de la spécification (ANS, InteropSanté, HL7 Europe, …)"
+* porteur 1..* string "Porteur" "Porteur de la spécification (ANS, InteropSanté, HL7 Europe, …)"
 * display 0..1 string "Display du champ" "Libellé d'affichage du champ"
