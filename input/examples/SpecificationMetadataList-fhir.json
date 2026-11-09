@@ -1,5 +1,6 @@
 {
   "resourceType": "https://interop.esante.gouv.fr/ig/fhir/metadata-interop-catalog/StructureDefinition/specification-metadata-list",
+  "id": "SpecificationMetadataList-fhir",
   "specifications": [
     {
       "titre": "Mesures de Santé",
