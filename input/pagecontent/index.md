@@ -57,9 +57,14 @@ Les métadonnées des spécifications d'interopérabilité sont actuellement iss
 * [https://interop.esante.gouv.fr/ig/cda/package-feed.xml](https://interop.esante.gouv.fr/ig/cda/package-feed.xml)
 * [https://interop.esante.gouv.fr/ig/HL7v2/package-feed.xml](https://interop.esante.gouv.fr/ig/HL7v2/package-feed.xml)
 
-#### Problématique : le cas du CDA
+#### Problématiques : le cas du CDA
 
 Les nouvelles spécifications CDA seront publiées sous forme d'Implementation Guides, et donc référencées dans le flux `https://interop.esante.gouv.fr/ig/cda/package-feed.xml`. En revanche, les spécifications CDA existantes n'ont actuellement pas de correspondance en `package-feed.xml`. Toutes leurs informations, y compris l'historique des versions, sont renseignées sur la page [Espace de publication du CI-SIS](https://esante.gouv.fr/offres-services/ci-sis/espace-publication), sous forme de documents PDF.
+
+Le CDA présente en réalité une double problématique :
+
+* **Plusieurs versions par spécification :** une même spécification CDA a plusieurs versions distinctes, une pour le fonctionnel, une pour le technique et une pour l'étude des normes et standards. Le modèle de métadonnées (une version par spécification) doit donc être adapté ou décliné pour les représenter.
+* **Un historique éclaté :** l'historique est publié sur des pages dédiées à chaque volet, par exemple [Volet Cancer PPS (Programme Personnalisé de Soins en cancérologie)](https://esante.gouv.fr/volet-cancer-pps-programme-personnalise-de-soins-en-cancerologie), et non sur une page unique.
 
 Deux options sont envisageables pour assurer la cohérence des sources :
 
