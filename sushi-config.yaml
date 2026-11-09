@@ -65,12 +65,6 @@ pages:
             title: Flux de consommation
     change-log.md:
         title: Historique des versions
-    autres_ressources.md:
-        title: Autres Ressources
-        annexe-securite.md:
-            title: Sécurité
-        annexe-downloads.md:
-            title: Téléchargements et usages
     translationinfo.md:
         title: Informations sur la traduction
 
