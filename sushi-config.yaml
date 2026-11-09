@@ -40,10 +40,13 @@ parameters: #Parameters list - https://build.fhir.org/ig/FHIR/fhir-tools-ig/Code
 
 
 resources:
-    https://interop.esante.gouv.fr/ig/fhir/metadata-interop-catalog/StructureDefinition/specification-metadata-list/SpecificationMetadataList-fhir:
+    Binary/SpecificationMetadataList-fhir:
         name: Exemple de liste de métadonnées de spécifications
         description: Exemple de liste de métadonnées construit à partir de https://interop.esante.gouv.fr/ig/fhir/package-feed.xml
         exampleCanonical: https://interop.esante.gouv.fr/ig/fhir/metadata-interop-catalog/StructureDefinition/specification-metadata-list
+        extension:
+            - url: http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format
+              valueCode: application/xml
 
 pages:
     index.md:
