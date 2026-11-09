@@ -1,31 +1,22 @@
 @startuml flux-alimentation
 skinparam shadowing false
-skinparam componentStyle rectangle
-skinparam defaultFontSize 13
-left to right direction
+skinparam defaultFontSize 12
+skinparam nodesep 20
+skinparam ranksep 30
+scale max 800 width
 
-package "Sources : package-feed.xml (interop.esante.gouv.fr)" as sources {
-  rectangle "/package-feed.xml" as feed_root
-  rectangle "/ig/package-feed.xml" as feed_ig
-  rectangle "/ig/fhir/package-feed.xml" as feed_fhir
-  rectangle "/ig/cda/package-feed.xml" as feed_cda
-  rectangle "/ig/HL7v2/package-feed.xml" as feed_hl7v2
-}
+rectangle "**Sources : package-feed.xml**\n(interop.esante.gouv.fr)\n\n/package-feed.xml\n/ig/package-feed.xml\n/ig/fhir/package-feed.xml\n/ig/cda/package-feed.xml\n/ig/HL7v2/package-feed.xml" as feeds
 
 rectangle "IG encapsulant les PDF CDA\n(solution transitoire,\njusqu'au full IG)" as ig_pdf #fff9e6
 
 rectangle "Outil d'agrégation\n(lecture des flux,\nmapping vers le modèle logique)" as tool
 
-database "Source de vérité\nListe conforme au modèle logique\nSpecificationMetadataList\n(JSON)" as truth #e8f4f8
+database "Source de vérité\nListe conforme au modèle logique\nSpecificationMetadataList (JSON)" as truth #e8f4f8
 
-rectangle "Site d'affichage\ndes spécifications d'interopérabilité" as site
+rectangle "Site d'affichage des\nspécifications d'interopérabilité" as site
 
-feed_root --> tool
-feed_ig --> tool
-feed_fhir --> tool
-feed_cda --> tool
-feed_hl7v2 --> tool
-ig_pdf ..> feed_cda : publie un package-feed
-tool --> truth : alimente automatiquement
-truth --> site : alimente automatiquement
+ig_pdf ..> feeds : publie dans\n/ig/cda/package-feed.xml
+feeds --> tool
+tool --> truth : alimente\nautomatiquement
+truth --> site : alimente\nautomatiquement
 @enduml
