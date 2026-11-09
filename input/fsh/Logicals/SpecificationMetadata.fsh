@@ -7,7 +7,7 @@ Description: "Modèle logique des métadonnées associées à une spécification
 * titre 1..1 string "Titre" "Titre de la spécification"
 * description 1..1 markdown "Texte de description" "Texte de description de la spécification"
 * datePublication 1..1 date "Date de publication" "Date de publication de la dernière version de la spécification"
-* identifiant 1..1 string "Identifiant" "Identifiant de la spécification"
+* identifiant 1..1 string "Identifiant" "Identifiant de la spécification (ex. ans.fhir.fr.mesures, CR-BIO)"
 * version 1..1 string "Numéro de version" "Numéro de version de la spécification"
 * liens 1..1 BackboneElement "Liens" "Liens associés à la spécification"
   * historique 0..1 url "Lien historique" "Lien vers l'historique des versions"
