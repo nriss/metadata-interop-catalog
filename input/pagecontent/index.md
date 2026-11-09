@@ -47,6 +47,16 @@ Définir en quelques lignes quel est le périmètre du projet
 
 Toujours laisser l'onglet "Ressources de conformité" pour s'assurer d'une cohérence globales entre tous les IGs
 
+### Sources d'informations actuelles
+
+Les métadonnées des spécifications d'interopérabilité sont actuellement issues des flux `package-feed.xml` suivants :
+
+* [https://interop.esante.gouv.fr/package-feed.xml](https://interop.esante.gouv.fr/package-feed.xml)
+* [https://interop.esante.gouv.fr/ig/package-feed.xml](https://interop.esante.gouv.fr/ig/package-feed.xml)
+* [https://interop.esante.gouv.fr/ig/fhir/package-feed.xml](https://interop.esante.gouv.fr/ig/fhir/package-feed.xml)
+* [https://interop.esante.gouv.fr/ig/cda/package-feed.xml](https://interop.esante.gouv.fr/ig/cda/package-feed.xml)
+* [https://interop.esante.gouv.fr/ig/HL7v2/package-feed.xml](https://interop.esante.gouv.fr/ig/HL7v2/package-feed.xml)
+
 ### Auteurs et contributeurs (optionnel)
 
 | Role  | Nom | Organisation | Contact |
