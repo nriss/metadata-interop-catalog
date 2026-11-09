@@ -46,7 +46,7 @@ resources:
         exampleCanonical: https://interop.esante.gouv.fr/ig/fhir/metadata-interop-catalog/StructureDefinition/specification-metadata-list
         extension:
             - url: http://hl7.org/fhir/StructureDefinition/implementationguide-resource-format
-              valueCode: application/xml
+              valueCode: application/json
 
 pages:
     index.md:
