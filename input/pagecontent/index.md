@@ -71,6 +71,12 @@ Deux options sont envisageables pour assurer la cohérence des sources :
 * adapter l'outil afin qu'il sache lire les informations de cette page ;
 * englober les PDF dans des Implementation Guides afin de produire un `package-feed.xml` cohérent avec les autres standards.
 
+##### Solution proposée
+
+Créer un IG qui encapsule les PDF des spécifications CDA existantes. Chaque IG est publié avec son `package-feed.xml`, ce qui rend les spécifications CDA référençables de la même manière que les autres standards, sans adapter l'outil.
+
+Lorsque les spécifications CDA passeront au « full IG », le problème sera automatiquement réglé : les IGs CDA remplaceront les IGs d'encapsulation des PDF et seront déjà référencés dans `https://interop.esante.gouv.fr/ig/cda/package-feed.xml`.
+
 ### Auteurs et contributeurs (optionnel)
 
 | Role  | Nom | Organisation | Contact |
