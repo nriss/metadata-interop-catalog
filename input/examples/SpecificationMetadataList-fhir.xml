@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SpecificationMetadataList xmlns="http://hl7.org/fhir">
+<SpecificationMetadataList xmlns="https://interop.esante.gouv.fr/ig/fhir/metadata-interop-catalog">
   <specifications>
     <titre value="Mesures de Santé"/>
     <description value="Publication 3.2.0 du guide d'implémentation Mesures de Santé"/>

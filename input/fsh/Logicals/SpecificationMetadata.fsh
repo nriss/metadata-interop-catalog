@@ -4,6 +4,9 @@ Id: specification-metadata
 Title: "Métadonnées d'une spécification d'interopérabilité"
 Description: "Modèle logique des métadonnées associées à une spécification d'interopérabilité, utilisées pour mettre à jour la page web des spécifications d'interopérabilité générée automatiquement."
 
+* ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-namespace"
+* ^extension[0].valueUri = "https://interop.esante.gouv.fr/ig/fhir/metadata-interop-catalog"
+
 * titre 1..1 string "Titre" "Titre de la spécification"
 * description 1..1 markdown "Texte de description" "Texte de description de la spécification"
 * datePublication 1..1 date "Date de publication" "Date de publication de la dernière version de la spécification"
