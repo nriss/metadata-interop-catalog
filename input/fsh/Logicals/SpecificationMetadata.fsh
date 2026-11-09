@@ -14,7 +14,7 @@ Description: "Modèle logique des métadonnées associées à une spécification
   * ciBuild 0..1 url "Lien ci-build" "Lien vers la version ci-build (intégration continue)"
   * source 0..1 url "Lien source" "Lien vers le dépôt source"
   * specification 1..1 url "Lien vers la spécification" "Lien vers la spécification publiée"
-* standard 1..1 string "Standard" "Standard utilisé par la spécification (CDA, FHIR, …)"
+* standard 0..* string "Standard" "Standard utilisé par la spécification (CDA, FHIR, …)"
 * tag 0..* string "Tag" "Tags permettant de classer la spécification"
 * casUsage 0..* string "Cas d'usage" "Cas d'usage couverts par la spécification"
 * editeur 1..1 string "Éditeur" "Éditeur de la spécification (InteropSanté, HL7 Europe, …)"
