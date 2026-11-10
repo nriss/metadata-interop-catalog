@@ -1,0 +1,21 @@
+[{
+  "id" : "ans.fhir.fr.metadata-interop-catalog",
+  "type" : "ImplementationGuide",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/metadata-interop-catalog/ImplementationGuide/ans.fhir.fr.metadata-interop-catalog",
+  "version" : "0.1.0",
+  "name" : "MetadataInteropCatalog"
+},
+{
+  "id" : "specification-metadata",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/metadata-interop-catalog/StructureDefinition/specification-metadata",
+  "version" : "0.1.0",
+  "name" : "SpecificationMetadata"
+},
+{
+  "id" : "specification-metadata-list",
+  "type" : "StructureDefinition",
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/metadata-interop-catalog/StructureDefinition/specification-metadata-list",
+  "version" : "0.1.0",
+  "name" : "SpecificationMetadataList"
+}]

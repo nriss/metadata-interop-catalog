@@ -1,0 +1,440 @@
+{
+  "date" : "Tue, 10 Nov, 2026 09:08:10 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [{
+    "name" : "/fsh-generated/resources/ImplementationGuide-ans.fhir.fr.metadata-interop-catalog.json",
+    "size" : 5661,
+    "processes" : [{
+      "activity" : "load",
+      "start" : 13,
+      "length" : 135
+    },
+    {
+      "activity" : "scan",
+      "start" : 14,
+      "length" : 1
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 14,
+      "length" : 13
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 14,
+      "length" : 52
+    },
+    {
+      "activity" : "validate",
+      "start" : 14,
+      "length" : 1124
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 16,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 16,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 16,
+      "length" : 11
+    },
+    {
+      "activity" : "generate1",
+      "start" : 16,
+      "length" : 106
+    },
+    {
+      "activity" : "generate2",
+      "start" : 18,
+      "length" : 90
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 24,
+      "length" : 2
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-specification-metadata-list.json",
+    "size" : 1804,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 13,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 13,
+      "length" : 6
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 13,
+      "length" : 7
+    },
+    {
+      "activity" : "load-configure",
+      "start" : 14,
+      "length" : 2
+    },
+    {
+      "activity" : "loadDepInfo",
+      "start" : 14,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 14,
+      "length" : 60
+    },
+    {
+      "activity" : "validate",
+      "start" : 14,
+      "length" : 332
+    },
+    {
+      "activity" : "validate",
+      "start" : 16,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 16,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 16,
+      "length" : 20
+    },
+    {
+      "activity" : "generate2",
+      "start" : 19,
+      "length" : 636
+    },
+    {
+      "activity" : "generate2",
+      "start" : 20,
+      "length" : 170
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 24,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-specification-metadata.json",
+    "size" : 6434,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 13,
+      "length" : 4
+    },
+    {
+      "activity" : "load",
+      "start" : 13,
+      "length" : 6
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 13,
+      "length" : 15
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 14,
+      "length" : 38
+    },
+    {
+      "activity" : "validate",
+      "start" : 14,
+      "length" : 148
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 15,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 16,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 16,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 16,
+      "length" : 75
+    },
+    {
+      "activity" : "generate2",
+      "start" : 19,
+      "length" : 407
+    },
+    {
+      "activity" : "generate2",
+      "start" : 20,
+      "length" : 146
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 24,
+      "length" : 3
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 29,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/examples/SpecificationMetadataList-fhir.json",
+    "size" : 1686,
+    "processes" : [{
+      "activity" : "generateNarratives",
+      "start" : 14,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 16,
+      "length" : 7
+    },
+    {
+      "activity" : "translate",
+      "start" : 16,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 16,
+      "length" : 6
+    },
+    {
+      "activity" : "generate2",
+      "start" : 20,
+      "length" : 11
+    },
+    {
+      "activity" : "generateExampleZip",
+      "start" : 24,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/fsh-link-references.md",
+    "size" : 253,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 16,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 20,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/fsh-generated/includes/menu.xml",
+    "size" : 1234,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 16,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 20,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/data/features.yml",
+    "size" : 164,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 16,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/spec-fonctionnelle-intro.md",
+    "size" : 82,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 20,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/spec-technique-flux-consommation.md",
+    "size" : 101,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 16,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 20,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/index.md",
+    "size" : 6523,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 16,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 20,
+      "length" : 3
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/spec-technique-flux-alimentation.md",
+    "size" : 99,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 16,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/spec-technique-vue-ensemble.md",
+    "size" : 96,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 20,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/translationinfo.md",
+    "size" : 59,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 16,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/change-log.md",
+    "size" : 330,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 16,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 20,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/spec-fonctionnelle-alimentation.md",
+    "size" : 61
+  },
+  {
+    "name" : "/input/pagecontent/spec-technique-intro.md",
+    "size" : 111,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 16,
+      "length" : 1
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 24,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/template/config",
+    "size" : 0,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 16,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/template/config/_config.yml",
+    "size" : 140
+  },
+  {
+    "name" : "/input/images",
+    "size" : 0,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 16,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 20,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images/card.png",
+    "size" : 136413
+  },
+  {
+    "name" : "/input/images/ci-sis-logo.png",
+    "size" : 61365,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 16,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images/anImage.png",
+    "size" : 36288,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 16,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 20,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/temp/pages/_includes/artifacts.xml",
+    "size" : 216
+  },
+  {
+    "name" : "/temp/pages/_includes/fragment-artifacts-table.html",
+    "size" : 3960,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 20,
+      "length" : 1
+    }]
+  }]
+}

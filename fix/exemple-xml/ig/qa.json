@@ -1,0 +1,20 @@
+{
+  "url" : "https://interop.esante.gouv.fr/ig/fhir/metadata-interop-catalog/ImplementationGuide/ans.fhir.fr.metadata-interop-catalog",
+  "name" : "MetadataInteropCatalog",
+  "title" : "Catalogue de métadonnées d'interopérabilité",
+  "description" : "Catalogue de métadonnées d'interopérabilité",
+  "status" : "draft",
+  "package-id" : "ans.fhir.fr.metadata-interop-catalog",
+  "ig-ver" : "0.1.0",
+  "date" : "Mon, 09 Nov, 2026 14:31:32 +0000",
+  "dateISO8601" : "2026-11-09T14:31:32+00:00",
+  "errs" : 3,
+  "warnings" : 153,
+  "hints" : 3,
+  "broken-links" : 6,
+  "suppressed-hints" : 8,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "6.0.0-snapshot1 (3)",
+  "maxMemory" : 894384648
+}

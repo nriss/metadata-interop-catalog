@@ -1,0 +1,32 @@
+# ans.fhir.fr.metadata-interop-catalog#0.1.0: Catalogue de métadonnées d'interopérabilité(fr)
+
+## Pages
+
+* [Accueil](fr/index.md)
+* [Informations sur la traduction](fr/translationinfo.md)
+* [Autres Ressources](fr/autres_ressources.md)
+* [Flux de consommation](fr/spec-technique-flux-consommation.md)
+* [Résumé des artefacts](fr/artifacts.md)
+* [Vue d'ensemble](fr/spec-technique-vue-ensemble.md)
+* [Téléchargements et usages](fr/annexe-downloads.md)
+* [Historique des versions](fr/change-log.md)
+* [Introduction](fr/spec-technique-intro.md)
+* [Vue d'ensemble](fr/spec-fonctionnelle-intro.md)
+* [Flux d'alimentation](fr/spec-technique-flux-alimentation.md)
+* [Sécurité](fr/annexe-securite.md)
+* [Alimentation](fr/spec-fonctionnelle-alimentation.md)
+
+## Resources
+
+### Logicals
+
+* [Liste des métadonnées de spécifications d'interopérabilité](fr/StructureDefinition-specification-metadata-list.md)
+* [Métadonnées d'une spécification d'interopérabilité](fr/StructureDefinition-specification-metadata.md)
+
+### ImplementationGuides
+
+* [Catalogue de métadonnées d'interopérabilité](fr/ImplementationGuide-ans.fhir.fr.metadata-interop-catalog.md)
+
+### Examples
+
+* [SpecificationMetadataList-fhir (Binary)](fr/Binary-SpecificationMetadataList-fhir.md)
