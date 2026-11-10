@@ -37,6 +37,14 @@ Cet IG a pour but de préparer le remplacement de l'[espace de publication actue
 
 Les « cards » qui présentent chaque spécification d'interopérabilité sont générées automatiquement à partir d'un fichier de métadonnées qui compile toutes les spécifications existantes. Ce fichier respecte le modèle logique défini dans cet IG (`SpecificationMetadataList`).
 
+L'objectif est d'obtenir ce type de format, comme sur la page [Produits et services de l'ANS](https://esante.gouv.fr/produits-services) :
+
+<figure style="text-align: center; margin: 0 auto;">
+    <img src="card.png" alt="Exemple de format cible : cards de présentation filtrables, issues de la page Produits et services de l'ANS" style="max-width: 100%;">
+    <figcaption style="text-align: center;">Exemple de format cible : des « cards » filtrables (source : <a href="https://esante.gouv.fr/produits-services">esante.gouv.fr/produits-services</a>)</figcaption>
+</figure>
+<br clear="all"/>
+
 Reste à faire :
 
 * Valider les métadonnées
