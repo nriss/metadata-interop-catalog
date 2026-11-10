@@ -31,6 +31,12 @@
 </div>
 -->
 
+### Introduction
+
+Cet IG a pour but de remplacer l'[espace de publication actuel du CI-SIS](https://esante.gouv.fr/offres-services/ci-sis/espace-publication).
+
+Les « cards » qui présentent chaque spécification d'interopérabilité sont générées automatiquement à partir d'un fichier de métadonnées qui compile toutes les spécifications existantes. Ce fichier respecte le modèle logique défini dans cet IG (`SpecificationMetadataList`).
+
 ### Sources d'informations actuelles
 
 Les métadonnées des spécifications d'interopérabilité sont actuellement issues des flux `package-feed.xml` suivants :
