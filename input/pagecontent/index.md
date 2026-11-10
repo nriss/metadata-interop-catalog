@@ -37,6 +37,11 @@ Cet IG a pour but de remplacer l'[espace de publication actuel du CI-SIS](https:
 
 Les « cards » qui présentent chaque spécification d'interopérabilité sont générées automatiquement à partir d'un fichier de métadonnées qui compile toutes les spécifications existantes. Ce fichier respecte le modèle logique défini dans cet IG (`SpecificationMetadataList`).
 
+Reste à faire :
+
+* Se mettre d'accord sur les métadonnées
+* Régler les spécifications qui ne sont pas au format IG
+
 ### Sources d'informations actuelles
 
 Les métadonnées des spécifications d'interopérabilité sont actuellement issues des flux `package-feed.xml` suivants :
@@ -76,11 +81,6 @@ Deux options sont envisageables pour assurer la cohérence des sources :
 Créer un IG qui encapsule les PDF des spécifications CDA existantes. Chaque IG est publié avec son `package-feed.xml`, ce qui rend les spécifications CDA référençables de la même manière que les autres standards, sans adapter l'outil.
 
 Lorsque les spécifications CDA passeront au « full IG », le problème sera automatiquement réglé : les IGs CDA remplaceront les IGs d'encapsulation des PDF et seront déjà référencés dans `https://interop.esante.gouv.fr/ig/cda/package-feed.xml`.
-
-### Reste à faire
-
-* Se mettre d'accord sur les métadonnées
-* Régler les spécifications qui ne sont pas au format IG
 
 ### Autres sujets à traiter
 
