@@ -77,6 +77,11 @@ Créer un IG qui encapsule les PDF des spécifications CDA existantes. Chaque IG
 
 Lorsque les spécifications CDA passeront au « full IG », le problème sera automatiquement réglé : les IGs CDA remplaceront les IGs d'encapsulation des PDF et seront déjà référencés dans `https://interop.esante.gouv.fr/ig/cda/package-feed.xml`.
 
+### Reste à faire
+
+* Se mettre d'accord sur les métadonnées
+* Régler les spécifications qui ne sont pas au format IG
+
 ### Autres sujets à traiter
 
 * Excel
