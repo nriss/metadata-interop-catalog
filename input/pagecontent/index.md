@@ -40,7 +40,15 @@ Les « cards » qui présentent chaque spécification d'interopérabilité sont 
 Reste à faire :
 
 * Se mettre d'accord sur les métadonnées
-* Régler les spécifications qui ne sont pas au format IG
+* Régler les spécifications qui ne sont pas encore au format IG :
+    * Excel
+    * IHE XDM
+    * Infobutton
+    * IHE WIA
+    * INS
+    * Couche transport
+    * Annexes
+    * …
 
 ### Sources d'informations actuelles
 
@@ -81,17 +89,6 @@ Deux options sont envisageables pour assurer la cohérence des sources :
 Créer un IG qui encapsule les PDF des spécifications CDA existantes. Chaque IG est publié avec son `package-feed.xml`, ce qui rend les spécifications CDA référençables de la même manière que les autres standards, sans adapter l'outil.
 
 Lorsque les spécifications CDA passeront au « full IG », le problème sera automatiquement réglé : les IGs CDA remplaceront les IGs d'encapsulation des PDF et seront déjà référencés dans `https://interop.esante.gouv.fr/ig/cda/package-feed.xml`.
-
-### Autres sujets à traiter
-
-* Excel
-* IHE XDM
-* Infobutton
-* IHE WIA
-* INS
-* Couche transport
-* Annexes
-* …
 
 ### Auteurs et contributeurs (optionnel)
 
