@@ -70,13 +70,13 @@ Les différents `package-feed.xml` alimentent automatiquement une source de vér
 </figure>
 <br clear="all"/>
 
-#### Problématiques : le cas du CDA
+#### Problématiques : les spécifications qui ne sont pas encore au format IG
 
-Les nouvelles spécifications CDA seront publiées sous forme d'Implementation Guides, et donc référencées dans le flux `https://interop.esante.gouv.fr/ig/cda/package-feed.xml`. En revanche, les spécifications CDA existantes n'ont actuellement pas de correspondance en `package-feed.xml`. Toutes leurs informations, y compris l'historique des versions, sont renseignées sur la page [Espace de publication du CI-SIS](https://esante.gouv.fr/offres-services/ci-sis/espace-publication), sous forme de documents PDF.
+Certaines spécifications ne sont pas encore publiées sous forme d'Implementation Guide (voir la liste dans « Reste à faire »). C'est notamment le cas des spécifications CDA existantes. Elles n'ont donc pas de correspondance en `package-feed.xml`. Toutes leurs informations, y compris l'historique des versions, sont renseignées sur la page [Espace de publication du CI-SIS](https://esante.gouv.fr/offres-services/ci-sis/espace-publication), sous forme de documents PDF. Les nouvelles spécifications CDA seront, elles, publiées sous forme d'IG et référencées dans le flux `https://interop.esante.gouv.fr/ig/cda/package-feed.xml`.
 
-Le CDA présente en réalité une double problématique :
+Ces spécifications présentent une double problématique :
 
-* **Plusieurs versions par spécification :** une même spécification CDA a plusieurs versions distinctes, une pour le fonctionnel, une pour le technique et une pour l'étude des normes et standards. Le modèle de métadonnées (une version par spécification) doit donc être adapté ou décliné pour les représenter.
+* **Plusieurs versions par spécification :** une même spécification a plusieurs versions distinctes, une pour le fonctionnel, une pour le technique et une pour l'étude des normes et standards. Le modèle de métadonnées (une version par spécification) doit donc être adapté ou décliné pour les représenter.
 * **Un historique éclaté :** l'historique est publié sur des pages dédiées à chaque volet, par exemple [Volet Cancer PPS (Programme Personnalisé de Soins en cancérologie)](https://esante.gouv.fr/volet-cancer-pps-programme-personnalise-de-soins-en-cancerologie), et non sur une page unique.
 
 Deux options sont envisageables pour assurer la cohérence des sources :
@@ -86,9 +86,9 @@ Deux options sont envisageables pour assurer la cohérence des sources :
 
 ##### Solution proposée
 
-Créer un IG qui encapsule les PDF des spécifications CDA existantes. Chaque IG est publié avec son `package-feed.xml`, ce qui rend les spécifications CDA référençables de la même manière que les autres standards, sans adapter l'outil.
+Créer un IG qui encapsule les PDF des spécifications qui ne sont pas encore au format IG. Chaque IG est publié avec son `package-feed.xml`, ce qui rend ces spécifications référençables de la même manière que les autres standards, sans adapter l'outil.
 
-Lorsque les spécifications CDA passeront au « full IG », le problème sera automatiquement réglé : les IGs CDA remplaceront les IGs d'encapsulation des PDF et seront déjà référencés dans `https://interop.esante.gouv.fr/ig/cda/package-feed.xml`.
+Lorsque ces spécifications passeront au « full IG », le problème sera automatiquement réglé : les IGs complets remplaceront les IGs d'encapsulation des PDF et seront déjà référencés dans les `package-feed.xml` existants (par exemple `https://interop.esante.gouv.fr/ig/cda/package-feed.xml` pour le CDA).
 
 ### Auteurs et contributeurs (optionnel)
 

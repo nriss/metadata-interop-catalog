@@ -7,7 +7,7 @@ scale max 800 width
 
 rectangle "**Sources : package-feed.xml**\n(interop.esante.gouv.fr)\n\n/package-feed.xml\n/ig/package-feed.xml\n/ig/fhir/package-feed.xml\n/ig/cda/package-feed.xml\n/ig/HL7v2/package-feed.xml" as feeds
 
-rectangle "IG encapsulant les PDF CDA\n(solution transitoire,\njusqu'au full IG)" as ig_pdf #fff9e6
+rectangle "IG encapsulant les PDF\ndes specs non encore au format IG\n(solution transitoire,\njusqu'au full IG)" as ig_pdf #fff9e6
 
 rectangle "Outil d'agrégation\n(lecture des flux,\nmapping vers le modèle logique)" as tool
 
@@ -15,7 +15,7 @@ database "Source de vérité\nListe conforme au modèle logique\nSpecificationMe
 
 rectangle "Site d'affichage des\nspécifications d'interopérabilité" as site
 
-ig_pdf ..> feeds : publie dans\n/ig/cda/package-feed.xml
+ig_pdf ..> feeds : publie un\npackage-feed.xml
 feeds --> tool
 tool --> truth : alimente\nautomatiquement
 truth --> site : alimente\nautomatiquement
