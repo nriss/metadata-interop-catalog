@@ -3,8 +3,7 @@ skinparam shadowing false
 skinparam defaultFontSize 12
 skinparam nodesep 15
 skinparam ranksep 40
-left to right direction
-scale max 900 width
+scale max 700 width
 
 package "Sources : package-feed.xml (interop.esante.gouv.fr)" as sources {
   rectangle "/package-feed.xml" as feed_root
