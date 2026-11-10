@@ -33,13 +33,13 @@
 
 ### Introduction
 
-Cet IG a pour but de remplacer l'[espace de publication actuel du CI-SIS](https://esante.gouv.fr/offres-services/ci-sis/espace-publication).
+Cet IG a pour but de préparer le remplacement de l'[espace de publication actuel](https://esante.gouv.fr/offres-services/ci-sis/espace-publication).
 
 Les « cards » qui présentent chaque spécification d'interopérabilité sont générées automatiquement à partir d'un fichier de métadonnées qui compile toutes les spécifications existantes. Ce fichier respecte le modèle logique défini dans cet IG (`SpecificationMetadataList`).
 
 Reste à faire :
 
-* Se mettre d'accord sur les métadonnées
+* Valider les métadonnées
 * Régler les spécifications qui ne sont pas encore au format IG :
     * Excel
     * IHE XDM
