@@ -35,9 +35,7 @@
 
 Cet IG a pour but de préparer le remplacement de l'[espace de publication actuel](https://esante.gouv.fr/offres-services/ci-sis/espace-publication).
 
-Les « cards » qui présentent chaque spécification d'interopérabilité sont générées automatiquement à partir d'un fichier de métadonnées qui compile toutes les spécifications existantes. Ce fichier respecte le modèle logique défini dans cet IG (`SpecificationMetadataList`).
-
-L'objectif est d'obtenir ce type de format, comme sur la page [Produits et services de l'ANS](https://esante.gouv.fr/produits-services) :
+L'objectif est d'avoir une page similaire à celle ci-dessous ([Produits et services de l'ANS](https://esante.gouv.fr/produits-services)), avec des « cards » qui représentent chaque spécification d'interopérabilité. Ces cards sont générées automatiquement à partir d'un fichier de métadonnées qui compile toutes les spécifications existantes. Ce fichier respecte le modèle logique défini dans cet IG (`SpecificationMetadataList`).
 
 <figure style="text-align: center; margin: 0 auto;">
     <img src="card.png" alt="Exemple de format cible : cards de présentation filtrables, issues de la page Produits et services de l'ANS" style="max-width: 100%;">
