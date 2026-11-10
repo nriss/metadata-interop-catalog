@@ -20,7 +20,7 @@ feed_cda -[hidden]down-> feed_hl7v2
 
 rectangle "IG encapsulant les PDF\ndes specs non encore au format IG\n(solution transitoire,\njusqu'au full IG)" as ig_pdf #fff9e6
 
-rectangle "Outil d'agrégation\n(lecture des flux,\nmapping vers le modèle logique)" as tool
+rectangle "Script\nCompilation des package-feed\ndans un fichier JSON unique\nconforme à SpecificationMetadataList" as tool
 
 database "Source de vérité\nListe conforme au modèle logique\nSpecificationMetadataList (JSON)" as truth #e8f4f8
 

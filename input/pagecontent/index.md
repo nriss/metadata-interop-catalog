@@ -72,7 +72,7 @@ Les différents `package-feed.xml` alimentent automatiquement une source de vér
 
 <figure style="text-align: center; margin: 0 auto;">
 {% include flux-alimentation.svg %}
-<figcaption style="text-align: center;">Schéma d'alimentation : package-feed.xml, outil d'agrégation, source de vérité conforme au modèle logique, site d'affichage</figcaption>
+<figcaption style="text-align: center;">Schéma d'alimentation : package-feed.xml, script de compilation, source de vérité conforme au modèle logique, site d'affichage</figcaption>
 </figure>
 <br clear="all"/>
 
